@@ -1,0 +1,31 @@
+{
+  "name": "dashlupian",
+  "version": "1.0.0",
+  "description": "Creación de un Dashboard usando Chart.js, fetch para consumir una API pública con JavaScript, Html y Css.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndLup/Proyecto_3_Dashboard.git"
+  },
+  "keywords": [
+    "Dashboard",
+    "Node",
+    "JS",
+    "API",
+    "Rest",
+    "Web",
+    "Devops"
+  ],
+  "author": "Andres Lupian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndLup/Proyecto_3_Dashboard/issues"
+  },
+  "homepage": "https://github.com/AndLup/Proyecto_3_Dashboard#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}
