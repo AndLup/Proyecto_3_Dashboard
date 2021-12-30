@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fondo{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    backdrop-filter: sepia(90%);
+    z-index: 500;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    margin: 1rem;
+    color: white;
+    transition: all ease-in-out .3s;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.menu a:hover{
+   transform: translateY(15%);
+   border-top: 3px solid tomato; 
+}
+
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-principal{
+    position: absolute;
+    width: 95%;
+    height: 85%;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 2rem;
+    box-shadow: .3rem .3rem .3rem .2rem rgba(255, 143, 143, 0.07);
+}
